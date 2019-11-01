@@ -1,3 +1,5 @@
+// Can try to improve using regex... 
+
 const caesar = function(str, shift) {
   const s = [...str].map((c, index) => {
     const charCode = str.charCodeAt(index);
