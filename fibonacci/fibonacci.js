@@ -3,6 +3,7 @@ const fibonacci = function(num) {
     return 'OOPS';
   }
   
+  // Space optimized
  /*  let a = 0;
   let b = 1;
 
@@ -13,6 +14,7 @@ const fibonacci = function(num) {
   }
   return b; */
   
+  // Recursive
   if (num <= 1){
     return num;
   } else {
