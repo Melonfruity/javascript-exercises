@@ -3,7 +3,7 @@ const fibonacci = function(num) {
     return 'OOPS';
   }
   
-  let a = 0;
+ /*  let a = 0;
   let b = 1;
 
   for (let i = 1; i < num; i ++){ 
@@ -11,16 +11,14 @@ const fibonacci = function(num) {
     a = b;
     b += c;
   }
-  return b;
+  return b; */
   
-  /* if (num <= 1){
+  if (num <= 1){
     return num;
   } else {
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    return fibonacci(num - 1) + fibonacci(num - 2);
   }
- */
-}
 
-console.log(fibonacci(2));
+}
 
 module.exports = fibonacci
